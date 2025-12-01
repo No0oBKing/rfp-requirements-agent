@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# Caches / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Streamlit cache/state
+**/.stcache/
+**/.stfolder/
+
+# Database / local data
+*.db
+*.sqlite3
+
+# Alembic caches
+app/alembic/versions/__pycache__/

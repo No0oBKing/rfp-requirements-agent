@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic-ai
+sqlalchemy
+alembic
+asyncpg
+pydantic-settings
+psycopg2-binary
+python-multipart
+pypdf2
+python-docx
+streamlit
+greenlet
+openai
+logfire
+python-jose
