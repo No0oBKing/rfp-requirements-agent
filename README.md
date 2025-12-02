@@ -30,7 +30,16 @@ pip install -r requirements.txt
 ```
 
 ## Database Setup
-Ensure PostgreSQL is running and `DATABASE_URL` is reachable. Then apply migrations:
+Option A (local Postgres already running): ensure `DATABASE_URL` points to it.
+
+Option B (docker-compose included here):
+```bash
+docker-compose up -d
+# Postgres will be available at localhost:5432 with user/pass postgres/postgres and db rfp_agentic
+export DATABASE_URL=postgresql://postgres:postgres@localhost:5432/rfp_agentic
+```
+
+Then apply migrations:
 ```bash
 alembic upgrade head
 ```
