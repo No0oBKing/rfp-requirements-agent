@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     ADMIN_PASSWORD: str = "admin123"
     JWT_SECRET: str = "change_me"
     JWT_ALGORITHM: str = "HS256"
+    API_URL: str = "http://localhost:8000/api"
 
     class Config:
         env_file = ".env"

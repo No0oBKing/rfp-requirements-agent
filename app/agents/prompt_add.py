@@ -8,7 +8,7 @@ from pydantic_ai import Agent
 from app.core.config import settings
 from app.core.logging import get_logger
 from app.models.models import SpaceRequirements
-from app.prompts.prompt_add_prompt import PROMPT as PROMPT_ADD_PROMPT
+from app.prompts.prompt_add_agent import PROMPT as PROMPT_ADD_PROMPT
 
 # Ensure the OpenAI API key is available to the client even if not exported in the shell
 if settings.OPENAI_API_KEY:
