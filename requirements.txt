@@ -7,7 +7,7 @@ asyncpg
 pydantic-settings
 psycopg2-binary
 python-multipart
-pypdf2
+pypdf
 python-docx
 streamlit
 greenlet
